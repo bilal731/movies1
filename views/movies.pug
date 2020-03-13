@@ -1,0 +1,12 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title
+    body
+        h1 These are the 
+        ul
+            each movie in movies
+                li 
+                    p= movie.name 
+                    p= `by ${movie.director.name}`
